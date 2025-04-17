@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p1/7718054-abstrato-futurista-digital-com-particulas-pontos-conectados-poligonos-fundo-plexo-gratis-vetor.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.navBar {
+    background-color: rgba(255, 255, 255, 0.064);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    gap: 20px;
+    height: 80px;
+    color: white;
+    font-weight: 900;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.divHome {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.042);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.myskills > p, h1 {
+    text-align: center;
+}
+
+.myimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para o nome */
+.comentario-nome {
+    font-weight: bold;
+    color: #3498db;
+    font-size: 1.2em;
+}
+
+/* Estilo para o comentário */
+.comentario-texto {
+    color: #ecf0f1;
+    font-size: 1em;
+    margin-top: 5px;
+    padding: 5px;
+    border-left: 3px solid #3498db;
+}
+
+.construcao404not {
+    background-color: rgba(255, 255, 255, 0.042);
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.imgConstrucao {
+    width: 400px;
+    max-width: 500px;
+    margin: 0 auto 20px;
+    display: block;
+    z-index: 1;
+}
+
+
+
+
+/* teste */
+
+.fundoChat {
+    background-color: rgba(255, 255, 255, 0.042);
+    color: white;
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Faz as mensagens aparecerem no final */
+    overflow-y: auto;
+    padding-bottom: 10px; /* Para garantir que as mensagens não fiquem cortadas */
+}
+
+.rendeMensagens {
+    display: flex;
+    flex-direction: column-reverse; /* Faz a ordem das mensagens ser da mais recente para a mais antiga */
+}
+
+.comentario-container {
+    background-color: #2784c68d; 
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    max-width: 80%; /* Ajuste para controlar a largura do comentário */
+    text-align: left;
+}
+
+.comentario-nome {
+    font-weight: bold;
+}
+
+.comentario-texto {
+    margin-top: 5px;
+}
+
+/* Comentários do usuário atual à esquerda */
+.comentario-container.meu-comentario {
+    margin-left: auto; /* Alinha os comentários do usuário à esquerda */
+    background-color: #4caf50; /* Cor de fundo diferente para os seus próprios comentários */
+}
+
+/* Estilos para o botão de envio */
+.btnComent {
+    width: 80%;
+}
+
+.divComent {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btnenvio {
+    background-color: #2784c6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.btnenvio:hover {
+    background-color: #1e5f7c;
+}
